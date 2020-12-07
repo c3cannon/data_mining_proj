@@ -1,0 +1,330 @@
+Regression results Using RF on spend_acf  using both covid and econ data are :
+explained_variance:  0.8868
+r2:  0.8285
+MAE:  0.0365
+MSE:  0.0023
+RMSE:  0.0482
+Regression results Using RF on spend_aer  using both covid and econ data are :
+explained_variance:  0.4985
+r2:  0.45
+MAE:  0.062
+MSE:  0.0071
+RMSE:  0.0841
+Regression results Using RF on spend_all  using both covid and econ data are :
+explained_variance:  0.7738
+r2:  0.7235
+MAE:  0.0284
+MSE:  0.0015
+RMSE:  0.0383
+Regression results Using RF on spend_apg  using both covid and econ data are :
+explained_variance:  0.6394
+r2:  0.6328
+MAE:  0.0582
+MSE:  0.0056
+RMSE:  0.0751
+Regression results Using RF on spend_grf  using both covid and econ data are :
+explained_variance:  0.6699
+r2:  0.6697
+MAE:  0.029
+MSE:  0.0015
+RMSE:  0.0381
+Regression results Using RF on spend_hcs  using both covid and econ data are :
+explained_variance:  0.3223
+r2:  0.3206
+MAE:  0.0909
+MSE:  0.0166
+RMSE:  0.1289
+Regression results Using RF on spend_tws  using both covid and econ data are :
+explained_variance:  0.6993
+r2:  0.5418
+MAE:  0.0386
+MSE:  0.0026
+RMSE:  0.0508
+Regression results Using RF on spend_all_inchigh  using both covid and econ data are :
+explained_variance:  0.7651
+r2:  0.7451
+MAE:  0.0394
+MSE:  0.0033
+RMSE:  0.0573
+Regression results Using RF on spend_all_inclow  using both covid and econ data are :
+explained_variance:  0.7692
+r2:  0.7563
+MAE:  0.0401
+MSE:  0.0031
+RMSE:  0.0555
+Regression results Using RF on spend_all_incmiddle  using both covid and econ data are :
+explained_variance:  0.7033
+r2:  0.6725
+MAE:  0.0319
+MSE:  0.0021
+RMSE:  0.0455
+Regression results Using RF on revenue_all  using both covid and econ data are :
+explained_variance:  0.8756
+r2:  0.8202
+MAE:  0.0298
+MSE:  0.0015
+RMSE:  0.0383
+Regression results Using RF on revenue_ss40  using both covid and econ data are :
+explained_variance:  0.729
+r2:  0.617
+MAE:  0.0477
+MSE:  0.0038
+RMSE:  0.0615
+Regression results Using RF on revenue_ss60  using both covid and econ data are :
+explained_variance:  0.6384
+r2:  0.6232
+MAE:  0.0556
+MSE:  0.0061
+RMSE:  0.0782
+Regression results Using RF on revenue_ss65  using both covid and econ data are :
+explained_variance:  0.2536
+r2:  0.25
+MAE:  0.0618
+MSE:  0.0081
+RMSE:  0.0899
+Regression results Using RF on revenue_ss70  using both covid and econ data are :
+explained_variance:  0.9154
+r2:  0.8984
+MAE:  0.0287
+MSE:  0.0013
+RMSE:  0.0361
+Regression results Using RF on merchants_all  using both covid and econ data are :
+explained_variance:  0.8766
+r2:  0.8268
+MAE:  0.0168
+MSE:  0.0006
+RMSE:  0.0237
+Regression results Using RF on merchants_ss40  using both covid and econ data are :
+explained_variance:  0.8282
+r2:  0.7832
+MAE:  0.0199
+MSE:  0.0007
+RMSE:  0.0273
+Regression results Using RF on merchants_ss60  using both covid and econ data are :
+explained_variance:  0.7214
+r2:  0.6265
+MAE:  0.0347
+MSE:  0.0021
+RMSE:  0.0458
+Regression results Using RF on merchants_ss65  using both covid and econ data are :
+explained_variance:  0.8106
+r2:  0.8104
+MAE:  0.0188
+MSE:  0.0008
+RMSE:  0.0282
+Regression results Using RF on merchants_ss70  using both covid and econ data are :
+explained_variance:  0.8967
+r2:  0.8635
+MAE:  0.022
+MSE:  0.0009
+RMSE:  0.0304
+Regression results Using RF on emp_combined  using both covid and econ data are :
+explained_variance:  0.9429
+r2:  0.9415
+MAE:  0.0059
+MSE:  0.0001
+RMSE:  0.0099
+Regression results Using RF on emp_combined_inclow  using both covid and econ data are :
+explained_variance:  0.914
+r2:  0.9135
+MAE:  0.011
+MSE:  0.0003
+RMSE:  0.0177
+Regression results Using RF on emp_combined_incmiddle  using both covid and econ data are :
+explained_variance:  0.9822
+r2:  0.9815
+MAE:  0.0053
+MSE:  0.0001
+RMSE:  0.0073
+Regression results Using RF on emp_combined_inchigh  using both covid and econ data are :
+explained_variance:  0.9215
+r2:  0.9097
+MAE:  0.0056
+MSE:  0.0001
+RMSE:  0.0087
+Regression results Using RF on emp_combined_ss40  using both covid and econ data are :
+explained_variance:  0.9143
+r2:  0.9141
+MAE:  0.0075
+MSE:  0.0002
+RMSE:  0.0123
+Regression results Using RF on emp_combined_ss60  using both covid and econ data are :
+explained_variance:  0.9574
+r2:  0.956
+MAE:  0.0075
+MSE:  0.0002
+RMSE:  0.0125
+Regression results Using RF on emp_combined_ss65  using both covid and econ data are :
+explained_variance:  0.943
+r2:  0.9331
+MAE:  0.0073
+MSE:  0.0001
+RMSE:  0.0109
+Regression results Using RF on emp_combined_ss70  using both covid and econ data are :
+explained_variance:  0.8728
+r2:  0.8693
+MAE:  0.0185
+MSE:  0.0014
+RMSE:  0.0374
+Regression results Using RF on initclaims_count_regular  using both covid and econ data are :
+explained_variance:  0.4544
+r2:  0.2979
+MAE:  6490.4678
+MSE:  121986138.663
+RMSE:  11044.7335
+Regression results Using RF on initclaims_rate_regular  using both covid and econ data are :
+explained_variance:  0.1733
+r2:  -1.8984
+MAE:  0.2521
+MSE:  0.0864
+RMSE:  0.2939
+Regression results Using RF on contclaims_count_regular  using both covid and econ data are :
+explained_variance:  0.947
+r2:  0.9438
+MAE:  34479.2909
+MSE:  2147282802.985
+RMSE:  46338.7829
+Regression results Using RF on contclaims_rate_regular  using both covid and econ data are :
+explained_variance:  0.1738
+r2:  0.1473
+MAE:  2.5825
+MSE:  15.5574
+RMSE:  3.9443
+Regression results Using RF on initclaims_count_pua  using both covid and econ data are :
+explained_variance:  0.6307
+r2:  0.3426
+MAE:  8748.1601
+MSE:  151188065.8466
+RMSE:  12295.8556
+Regression results Using RF on contclaims_count_pua  using both covid and econ data are :
+explained_variance:  0.6342
+r2:  0.5857
+MAE:  80003.1884
+MSE:  33219864695.2495
+RMSE:  182263.1743
+Regression results Using RF on contclaims_count_peuc  using both covid and econ data are :
+explained_variance:  0.8636
+r2:  0.8636
+MAE:  3545.3682
+MSE:  74102337.8265
+RMSE:  8608.2715
+Regression results Using RF on initclaims_rate_pua  using both covid and econ data are :
+explained_variance:  0.3544
+r2:  0.0506
+MAE:  0.1821
+MSE:  0.0567
+RMSE:  0.2382
+Regression results Using RF on contclaims_rate_pua  using both covid and econ data are :
+explained_variance:  0.1876
+r2:  0.031
+MAE:  2.8459
+MSE:  14.3335
+RMSE:  3.786
+Regression results Using RF on contclaims_rate_peuc  using both covid and econ data are :
+explained_variance:  0.6421
+r2:  0.6421
+MAE:  0.1778
+MSE:  0.0486
+RMSE:  0.2205
+Regression results Using RF on initclaims_count_combined  using both covid and econ data are :
+explained_variance:  0.8608
+r2:  0.7229
+MAE:  10948.9764
+MSE:  205770933.479
+RMSE:  14344.718
+Regression results Using RF on contclaims_count_combined  using both covid and econ data are :
+explained_variance:  0.7133
+r2:  0.7119
+MAE:  143350.923
+MSE:  65685011200.0265
+RMSE:  256290.8723
+Regression results Using RF on initclaims_rate_combined  using both covid and econ data are :
+explained_variance:  0.1458
+r2:  -1.0445
+MAE:  0.4364
+MSE:  0.2484
+RMSE:  0.4984
+Regression results Using RF on contclaims_rate_combined  using both covid and econ data are :
+explained_variance:  0.1006
+r2:  0.0923
+MAE:  4.6144
+MSE:  57.1129
+RMSE:  7.5573
+Regression results Using RF on bg_posts  using both covid and econ data are :
+explained_variance:  -0.0669
+r2:  -0.1066
+MAE:  0.0857
+MSE:  0.0143
+RMSE:  0.1198
+Regression results Using RF on bg_posts_ss30  using both covid and econ data are :
+explained_variance:  -0.2066
+r2:  -0.7941
+MAE:  0.1261
+MSE:  0.024
+RMSE:  0.155
+Regression results Using RF on bg_posts_ss55  using both covid and econ data are :
+explained_variance:  -0.0643
+r2:  -0.2018
+MAE:  0.0718
+MSE:  0.0104
+RMSE:  0.1021
+Regression results Using RF on bg_posts_ss60  using both covid and econ data are :
+explained_variance:  -0.5417
+r2:  -0.6224
+MAE:  0.0866
+MSE:  0.016
+RMSE:  0.1266
+Regression results Using RF on bg_posts_ss65  using both covid and econ data are :
+explained_variance:  0.0862
+r2:  -0.09
+MAE:  0.1305
+MSE:  0.0278
+RMSE:  0.1667
+Regression results Using RF on bg_posts_ss70  using both covid and econ data are :
+explained_variance:  -0.0131
+r2:  -0.2632
+MAE:  0.3238
+MSE:  0.1281
+RMSE:  0.3579
+Regression results Using RF on bg_posts_jz1  using both covid and econ data are :
+explained_variance:  -0.023
+r2:  -0.0328
+MAE:  0.2354
+MSE:  0.0844
+RMSE:  0.2905
+Regression results Using RF on bg_posts_jzgrp12  using both covid and econ data are :
+explained_variance:  -0.1378
+r2:  -0.1464
+MAE:  0.1592
+MSE:  0.0421
+RMSE:  0.2052
+Regression results Using RF on bg_posts_jz2  using both covid and econ data are :
+explained_variance:  -0.3735
+r2:  -0.3966
+MAE:  0.1679
+MSE:  0.0471
+RMSE:  0.2169
+Regression results Using RF on bg_posts_jz3  using both covid and econ data are :
+explained_variance:  0.2848
+r2:  0.2792
+MAE:  0.0923
+MSE:  0.015
+RMSE:  0.1224
+Regression results Using RF on bg_posts_jzgrp345  using both covid and econ data are :
+explained_variance:  0.0976
+r2:  -0.2426
+MAE:  0.0845
+MSE:  0.0105
+RMSE:  0.1026
+Regression results Using RF on bg_posts_jz4  using both covid and econ data are :
+explained_variance:  0.2242
+r2:  -0.1505
+MAE:  0.056
+MSE:  0.0052
+RMSE:  0.0721
+Regression results Using RF on bg_posts_jz5  using both covid and econ data are :
+explained_variance:  0.2925
+r2:  -0.146
+MAE:  0.1318
+MSE:  0.0244
+RMSE:  0.1563

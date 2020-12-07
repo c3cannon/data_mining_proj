@@ -1,0 +1,330 @@
+Regression results Using KNR on spend_acf  using covid data are :
+explained_variance:  0.7193
+r2:  0.5685
+MAE:  0.0533
+MSE:  0.0059
+RMSE:  0.0765
+Regression results Using KNR on spend_aer  using covid data are :
+explained_variance:  0.2652
+r2:  0.1455
+MAE:  0.0769
+MSE:  0.011
+RMSE:  0.1049
+Regression results Using KNR on spend_all  using covid data are :
+explained_variance:  0.6365
+r2:  0.4953
+MAE:  0.038
+MSE:  0.0027
+RMSE:  0.0518
+Regression results Using KNR on spend_apg  using covid data are :
+explained_variance:  0.2552
+r2:  0.2506
+MAE:  0.0808
+MSE:  0.0115
+RMSE:  0.1073
+Regression results Using KNR on spend_grf  using covid data are :
+explained_variance:  0.4718
+r2:  0.4651
+MAE:  0.037
+MSE:  0.0024
+RMSE:  0.0485
+Regression results Using KNR on spend_hcs  using covid data are :
+explained_variance:  -0.5957
+r2:  -0.5975
+MAE:  0.1294
+MSE:  0.0391
+RMSE:  0.1977
+Regression results Using KNR on spend_tws  using covid data are :
+explained_variance:  0.6136
+r2:  0.2708
+MAE:  0.0487
+MSE:  0.0041
+RMSE:  0.0641
+Regression results Using KNR on spend_all_inchigh  using covid data are :
+explained_variance:  0.6298
+r2:  0.5701
+MAE:  0.0508
+MSE:  0.0055
+RMSE:  0.0744
+Regression results Using KNR on spend_all_inclow  using covid data are :
+explained_variance:  0.6362
+r2:  0.611
+MAE:  0.0505
+MSE:  0.0049
+RMSE:  0.0701
+Regression results Using KNR on spend_all_incmiddle  using covid data are :
+explained_variance:  0.6426
+r2:  0.527
+MAE:  0.0408
+MSE:  0.003
+RMSE:  0.0546
+Regression results Using KNR on revenue_all  using covid data are :
+explained_variance:  0.7679
+r2:  0.6168
+MAE:  0.0439
+MSE:  0.0031
+RMSE:  0.0559
+Regression results Using KNR on revenue_ss40  using covid data are :
+explained_variance:  0.5671
+r2:  0.2207
+MAE:  0.0684
+MSE:  0.0077
+RMSE:  0.0877
+Regression results Using KNR on revenue_ss60  using covid data are :
+explained_variance:  0.3385
+r2:  0.3053
+MAE:  0.0737
+MSE:  0.0113
+RMSE:  0.1061
+Regression results Using KNR on revenue_ss65  using covid data are :
+explained_variance:  0.15
+r2:  0.1496
+MAE:  0.0673
+MSE:  0.0092
+RMSE:  0.0957
+Regression results Using KNR on revenue_ss70  using covid data are :
+explained_variance:  0.786
+r2:  0.7217
+MAE:  0.0441
+MSE:  0.0036
+RMSE:  0.0598
+Regression results Using KNR on merchants_all  using covid data are :
+explained_variance:  0.7392
+r2:  0.5991
+MAE:  0.0265
+MSE:  0.0013
+RMSE:  0.036
+Regression results Using KNR on merchants_ss40  using covid data are :
+explained_variance:  0.6274
+r2:  0.5458
+MAE:  0.0274
+MSE:  0.0016
+RMSE:  0.0396
+Regression results Using KNR on merchants_ss60  using covid data are :
+explained_variance:  0.5557
+r2:  0.4542
+MAE:  0.0406
+MSE:  0.0031
+RMSE:  0.0554
+Regression results Using KNR on merchants_ss65  using covid data are :
+explained_variance:  0.6812
+r2:  0.6811
+MAE:  0.0257
+MSE:  0.0013
+RMSE:  0.0365
+Regression results Using KNR on merchants_ss70  using covid data are :
+explained_variance:  0.7783
+r2:  0.5298
+MAE:  0.0446
+MSE:  0.0032
+RMSE:  0.0565
+Regression results Using KNR on emp_combined  using covid data are :
+explained_variance:  0.7573
+r2:  0.7142
+MAE:  0.0135
+MSE:  0.0005
+RMSE:  0.022
+Regression results Using KNR on emp_combined_inclow  using covid data are :
+explained_variance:  0.7534
+r2:  0.7502
+MAE:  0.0185
+MSE:  0.0009
+RMSE:  0.0301
+Regression results Using KNR on emp_combined_incmiddle  using covid data are :
+explained_variance:  0.8151
+r2:  0.7606
+MAE:  0.0165
+MSE:  0.0007
+RMSE:  0.0263
+Regression results Using KNR on emp_combined_inchigh  using covid data are :
+explained_variance:  0.6745
+r2:  0.5998
+MAE:  0.0134
+MSE:  0.0003
+RMSE:  0.0182
+Regression results Using KNR on emp_combined_ss40  using covid data are :
+explained_variance:  0.623
+r2:  0.592
+MAE:  0.0161
+MSE:  0.0007
+RMSE:  0.0269
+Regression results Using KNR on emp_combined_ss60  using covid data are :
+explained_variance:  0.6858
+r2:  0.6834
+MAE:  0.0184
+MSE:  0.0011
+RMSE:  0.0335
+Regression results Using KNR on emp_combined_ss65  using covid data are :
+explained_variance:  0.7541
+r2:  0.66
+MAE:  0.0168
+MSE:  0.0006
+RMSE:  0.0246
+Regression results Using KNR on emp_combined_ss70  using covid data are :
+explained_variance:  0.7179
+r2:  0.6783
+MAE:  0.0333
+MSE:  0.0034
+RMSE:  0.0587
+Regression results Using KNR on initclaims_count_regular  using covid data are :
+explained_variance:  -0.081
+r2:  -0.216
+MAE:  8086.3126
+MSE:  211288046.5534
+RMSE:  14535.7506
+Regression results Using KNR on initclaims_rate_regular  using covid data are :
+explained_variance:  -0.686
+r2:  -0.7087
+MAE:  0.1631
+MSE:  0.0509
+RMSE:  0.2257
+Regression results Using KNR on contclaims_count_regular  using covid data are :
+explained_variance:  0.1122
+r2:  0.1122
+MAE:  91991.1361
+MSE:  33919559172.3489
+RMSE:  184172.6342
+Regression results Using KNR on contclaims_rate_regular  using covid data are :
+explained_variance:  -0.1653
+r2:  -0.672
+MAE:  4.0997
+MSE:  30.5033
+RMSE:  5.523
+Regression results Using KNR on initclaims_count_pua  using covid data are :
+explained_variance:  0.0298
+r2:  -0.4301
+MAE:  12034.2625
+MSE:  328878858.6505
+RMSE:  18135.0175
+Regression results Using KNR on contclaims_count_pua  using covid data are :
+explained_variance:  0.0755
+r2:  0.051
+MAE:  132463.4814
+MSE:  76088255981.8082
+RMSE:  275840.9976
+Regression results Using KNR on contclaims_count_peuc  using covid data are :
+explained_variance:  0.1004
+r2:  0.0974
+MAE:  8504.5618
+MSE:  490231956.3748
+RMSE:  22141.1824
+Regression results Using KNR on initclaims_rate_pua  using covid data are :
+explained_variance:  -0.1139
+r2:  -0.5117
+MAE:  0.2154
+MSE:  0.0904
+RMSE:  0.3006
+Regression results Using KNR on contclaims_rate_pua  using covid data are :
+explained_variance:  -0.1727
+r2:  -0.3724
+MAE:  3.8854
+MSE:  20.3004
+RMSE:  4.5056
+Regression results Using KNR on contclaims_rate_peuc  using covid data are :
+explained_variance:  0.0162
+r2:  0.0006
+MAE:  0.2049
+MSE:  0.1358
+RMSE:  0.3685
+Regression results Using KNR on initclaims_count_combined  using covid data are :
+explained_variance:  0.0307
+r2:  -0.2012
+MAE:  17818.574
+MSE:  892048350.4375
+RMSE:  29867.1785
+Regression results Using KNR on contclaims_count_combined  using covid data are :
+explained_variance:  0.0975
+r2:  0.0449
+MAE:  247013.196
+MSE:  217737767577.4877
+RMSE:  466623.7966
+Regression results Using KNR on initclaims_rate_combined  using covid data are :
+explained_variance:  -0.2847
+r2:  -0.8173
+MAE:  0.353
+MSE:  0.2208
+RMSE:  0.4699
+Regression results Using KNR on contclaims_rate_combined  using covid data are :
+explained_variance:  -0.143
+r2:  -0.3402
+MAE:  8.0561
+MSE:  84.3253
+RMSE:  9.1829
+Regression results Using KNR on bg_posts  using covid data are :
+explained_variance:  -0.1158
+r2:  -0.4007
+MAE:  0.11
+MSE:  0.0182
+RMSE:  0.1347
+Regression results Using KNR on bg_posts_ss30  using covid data are :
+explained_variance:  -0.223
+r2:  -1.0148
+MAE:  0.1385
+MSE:  0.027
+RMSE:  0.1643
+Regression results Using KNR on bg_posts_ss55  using covid data are :
+explained_variance:  -0.2968
+r2:  -0.3968
+MAE:  0.0823
+MSE:  0.0121
+RMSE:  0.11
+Regression results Using KNR on bg_posts_ss60  using covid data are :
+explained_variance:  -0.2813
+r2:  -0.2813
+MAE:  0.0837
+MSE:  0.0127
+RMSE:  0.1125
+Regression results Using KNR on bg_posts_ss65  using covid data are :
+explained_variance:  -0.1644
+r2:  -1.3021
+MAE:  0.2003
+MSE:  0.0587
+RMSE:  0.2423
+Regression results Using KNR on bg_posts_ss70  using covid data are :
+explained_variance:  -0.0745
+r2:  -0.431
+MAE:  0.3347
+MSE:  0.1451
+RMSE:  0.381
+Regression results Using KNR on bg_posts_jz1  using covid data are :
+explained_variance:  -0.0611
+r2:  -0.0629
+MAE:  0.2469
+MSE:  0.0868
+RMSE:  0.2947
+Regression results Using KNR on bg_posts_jzgrp12  using covid data are :
+explained_variance:  -0.0312
+r2:  -0.103
+MAE:  0.159
+MSE:  0.0405
+RMSE:  0.2013
+Regression results Using KNR on bg_posts_jz2  using covid data are :
+explained_variance:  -0.0325
+r2:  -0.1101
+MAE:  0.1514
+MSE:  0.0374
+RMSE:  0.1934
+Regression results Using KNR on bg_posts_jz3  using covid data are :
+explained_variance:  -0.1119
+r2:  -0.6887
+MAE:  0.1514
+MSE:  0.0351
+RMSE:  0.1874
+Regression results Using KNR on bg_posts_jzgrp345  using covid data are :
+explained_variance:  -0.1743
+r2:  -0.8998
+MAE:  0.1043
+MSE:  0.0161
+RMSE:  0.1269
+Regression results Using KNR on bg_posts_jz4  using covid data are :
+explained_variance:  -0.2112
+r2:  -0.2727
+MAE:  0.0594
+MSE:  0.0057
+RMSE:  0.0758
+Regression results Using KNR on bg_posts_jz5  using covid data are :
+explained_variance:  -0.0588
+r2:  -0.806
+MAE:  0.1613
+MSE:  0.0385
+RMSE:  0.1962

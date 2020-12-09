@@ -1,0 +1,330 @@
+Regression results Using LGBM Regressor on spend_acf using both covid and econ data are:
+explained_variance:  0.9102
+r2:  0.8415
+MAE:  0.0359
+MSE:  0.0021
+RMSE:  0.0464
+Regression results Using LGBM Regressor on spend_aer using both covid and econ data are:
+explained_variance:  0.5171
+r2:  0.4285
+MAE:  0.0638
+MSE:  0.0074
+RMSE:  0.0858
+Regression results Using LGBM Regressor on spend_all using both covid and econ data are:
+explained_variance:  0.8312
+r2:  0.7985
+MAE:  0.0256
+MSE:  0.0011
+RMSE:  0.0327
+Regression results Using LGBM Regressor on spend_apg using both covid and econ data are:
+explained_variance:  0.5886
+r2:  0.5862
+MAE:  0.0615
+MSE:  0.0064
+RMSE:  0.0797
+Regression results Using LGBM Regressor on spend_grf using both covid and econ data are:
+explained_variance:  0.6909
+r2:  0.6885
+MAE:  0.0275
+MSE:  0.0014
+RMSE:  0.037
+Regression results Using LGBM Regressor on spend_hcs using both covid and econ data are:
+explained_variance:  0.3399
+r2:  0.2991
+MAE:  0.0936
+MSE:  0.0171
+RMSE:  0.1309
+Regression results Using LGBM Regressor on spend_tws using both covid and econ data are:
+explained_variance:  0.7013
+r2:  0.553
+MAE:  0.0371
+MSE:  0.0025
+RMSE:  0.0502
+Regression results Using LGBM Regressor on spend_all_inchigh using both covid and econ data are:
+explained_variance:  0.7859
+r2:  0.7679
+MAE:  0.0376
+MSE:  0.003
+RMSE:  0.0547
+Regression results Using LGBM Regressor on spend_all_inclow using both covid and econ data are:
+explained_variance:  0.7693
+r2:  0.7605
+MAE:  0.0397
+MSE:  0.003
+RMSE:  0.055
+Regression results Using LGBM Regressor on spend_all_incmiddle using both covid and econ data are:
+explained_variance:  0.7971
+r2:  0.7623
+MAE:  0.0289
+MSE:  0.0015
+RMSE:  0.0387
+Regression results Using LGBM Regressor on revenue_all using both covid and econ data are:
+explained_variance:  0.8657
+r2:  0.8274
+MAE:  0.0289
+MSE:  0.0014
+RMSE:  0.0375
+Regression results Using LGBM Regressor on revenue_ss40 using both covid and econ data are:
+explained_variance:  0.7361
+r2:  0.6357
+MAE:  0.0455
+MSE:  0.0036
+RMSE:  0.0599
+Regression results Using LGBM Regressor on revenue_ss60 using both covid and econ data are:
+explained_variance:  0.5942
+r2:  0.581
+MAE:  0.0577
+MSE:  0.0068
+RMSE:  0.0824
+Regression results Using LGBM Regressor on revenue_ss65 using both covid and econ data are:
+explained_variance:  0.2393
+r2:  0.2385
+MAE:  0.064
+MSE:  0.0082
+RMSE:  0.0906
+Regression results Using LGBM Regressor on revenue_ss70 using both covid and econ data are:
+explained_variance:  0.9215
+r2:  0.9106
+MAE:  0.0262
+MSE:  0.0011
+RMSE:  0.0339
+Regression results Using LGBM Regressor on merchants_all using both covid and econ data are:
+explained_variance:  0.8741
+r2:  0.8524
+MAE:  0.0147
+MSE:  0.0005
+RMSE:  0.0219
+Regression results Using LGBM Regressor on merchants_ss40 using both covid and econ data are:
+explained_variance:  0.8597
+r2:  0.8393
+MAE:  0.0164
+MSE:  0.0006
+RMSE:  0.0235
+Regression results Using LGBM Regressor on merchants_ss60 using both covid and econ data are:
+explained_variance:  0.7583
+r2:  0.7068
+MAE:  0.0298
+MSE:  0.0016
+RMSE:  0.0406
+Regression results Using LGBM Regressor on merchants_ss65 using both covid and econ data are:
+explained_variance:  0.8103
+r2:  0.8102
+MAE:  0.0183
+MSE:  0.0008
+RMSE:  0.0282
+Regression results Using LGBM Regressor on merchants_ss70 using both covid and econ data are:
+explained_variance:  0.9184
+r2:  0.8907
+MAE:  0.0196
+MSE:  0.0007
+RMSE:  0.0272
+Regression results Using LGBM Regressor on emp_combined using both covid and econ data are:
+explained_variance:  0.9685
+r2:  0.9654
+MAE:  0.0047
+MSE:  0.0001
+RMSE:  0.0076
+Regression results Using LGBM Regressor on emp_combined_inclow using both covid and econ data are:
+explained_variance:  0.9371
+r2:  0.937
+MAE:  0.01
+MSE:  0.0002
+RMSE:  0.0151
+Regression results Using LGBM Regressor on emp_combined_incmiddle using both covid and econ data are:
+explained_variance:  0.9874
+r2:  0.9864
+MAE:  0.0047
+MSE:  0.0
+RMSE:  0.0063
+Regression results Using LGBM Regressor on emp_combined_inchigh using both covid and econ data are:
+explained_variance:  0.9157
+r2:  0.901
+MAE:  0.0061
+MSE:  0.0001
+RMSE:  0.0091
+Regression results Using LGBM Regressor on emp_combined_ss40 using both covid and econ data are:
+explained_variance:  0.9152
+r2:  0.9106
+MAE:  0.0076
+MSE:  0.0002
+RMSE:  0.0126
+Regression results Using LGBM Regressor on emp_combined_ss60 using both covid and econ data are:
+explained_variance:  0.9245
+r2:  0.9193
+MAE:  0.0078
+MSE:  0.0003
+RMSE:  0.0169
+Regression results Using LGBM Regressor on emp_combined_ss65 using both covid and econ data are:
+explained_variance:  0.9535
+r2:  0.9383
+MAE:  0.0071
+MSE:  0.0001
+RMSE:  0.0105
+Regression results Using LGBM Regressor on emp_combined_ss70 using both covid and econ data are:
+explained_variance:  0.8893
+r2:  0.8893
+MAE:  0.0157
+MSE:  0.0012
+RMSE:  0.0344
+Regression results Using LGBM Regressor on initclaims_count_regular using both covid and econ data are:
+explained_variance:  0.8759
+r2:  0.7948
+MAE:  4284.6793
+MSE:  35652810.3783
+RMSE:  5970.9974
+Regression results Using LGBM Regressor on initclaims_rate_regular using both covid and econ data are:
+explained_variance:  0.2942
+r2:  -1.249
+MAE:  0.2174
+MSE:  0.067
+RMSE:  0.2589
+Regression results Using LGBM Regressor on contclaims_count_regular using both covid and econ data are:
+explained_variance:  0.9553
+r2:  0.9525
+MAE:  30722.5416
+MSE:  1815386786.07
+RMSE:  42607.356
+Regression results Using LGBM Regressor on contclaims_rate_regular using both covid and econ data are:
+explained_variance:  0.1707
+r2:  0.1688
+MAE:  2.697
+MSE:  15.1644
+RMSE:  3.8942
+Regression results Using LGBM Regressor on initclaims_count_pua using both covid and econ data are:
+explained_variance:  0.6149
+r2:  0.4042
+MAE:  7669.2909
+MSE:  137015586.1759
+RMSE:  11705.3657
+Regression results Using LGBM Regressor on contclaims_count_pua using both covid and econ data are:
+explained_variance:  0.6386
+r2:  0.6153
+MAE:  76661.5845
+MSE:  30845673048.2035
+RMSE:  175629.3627
+Regression results Using LGBM Regressor on contclaims_count_peuc using both covid and econ data are:
+explained_variance:  0.8497
+r2:  0.8494
+MAE:  3565.8655
+MSE:  81779369.925
+RMSE:  9043.1947
+Regression results Using LGBM Regressor on initclaims_rate_pua using both covid and econ data are:
+explained_variance:  0.3161
+r2:  0.0287
+MAE:  0.1688
+MSE:  0.058
+RMSE:  0.2409
+Regression results Using LGBM Regressor on contclaims_rate_pua using both covid and econ data are:
+explained_variance:  0.142
+r2:  0.0013
+MAE:  2.9743
+MSE:  14.7722
+RMSE:  3.8435
+Regression results Using LGBM Regressor on contclaims_rate_peuc using both covid and econ data are:
+explained_variance:  0.5857
+r2:  0.5843
+MAE:  0.1899
+MSE:  0.0565
+RMSE:  0.2376
+Regression results Using LGBM Regressor on initclaims_count_combined using both covid and econ data are:
+explained_variance:  0.8554
+r2:  0.6901
+MAE:  11737.7289
+MSE:  230109024.1095
+RMSE:  15169.3449
+Regression results Using LGBM Regressor on contclaims_count_combined using both covid and econ data are:
+explained_variance:  0.759
+r2:  0.7566
+MAE:  141890.9865
+MSE:  55487841699.6884
+RMSE:  235558.5738
+Regression results Using LGBM Regressor on initclaims_rate_combined using both covid and econ data are:
+explained_variance:  0.344
+r2:  -0.3815
+MAE:  0.3443
+MSE:  0.1678
+RMSE:  0.4097
+Regression results Using LGBM Regressor on contclaims_rate_combined using both covid and econ data are:
+explained_variance:  0.0491
+r2:  0.047
+MAE:  4.9444
+MSE:  59.9652
+RMSE:  7.7437
+Regression results Using LGBM Regressor on bg_posts using both covid and econ data are:
+explained_variance:  -0.0096
+r2:  -0.088
+MAE:  0.0863
+MSE:  0.0141
+RMSE:  0.1187
+Regression results Using LGBM Regressor on bg_posts_ss30 using both covid and econ data are:
+explained_variance:  -0.1621
+r2:  -0.4609
+MAE:  0.1118
+MSE:  0.0196
+RMSE:  0.1399
+Regression results Using LGBM Regressor on bg_posts_ss55 using both covid and econ data are:
+explained_variance:  0.1428
+r2:  0.1031
+MAE:  0.0597
+MSE:  0.0078
+RMSE:  0.0882
+Regression results Using LGBM Regressor on bg_posts_ss60 using both covid and econ data are:
+explained_variance:  0.0063
+r2:  -0.0339
+MAE:  0.076
+MSE:  0.0102
+RMSE:  0.1011
+Regression results Using LGBM Regressor on bg_posts_ss65 using both covid and econ data are:
+explained_variance:  0.1529
+r2:  0.0111
+MAE:  0.1214
+MSE:  0.0252
+RMSE:  0.1588
+Regression results Using LGBM Regressor on bg_posts_ss70 using both covid and econ data are:
+explained_variance:  0.0244
+r2:  -0.1033
+MAE:  0.2956
+MSE:  0.1119
+RMSE:  0.3345
+Regression results Using LGBM Regressor on bg_posts_jz1 using both covid and econ data are:
+explained_variance:  -0.0038
+r2:  -0.0171
+MAE:  0.2406
+MSE:  0.0831
+RMSE:  0.2882
+Regression results Using LGBM Regressor on bg_posts_jzgrp12 using both covid and econ data are:
+explained_variance:  -0.2837
+r2:  -0.2947
+MAE:  0.1753
+MSE:  0.0476
+RMSE:  0.2181
+Regression results Using LGBM Regressor on bg_posts_jz2 using both covid and econ data are:
+explained_variance:  -0.2023
+r2:  -0.2299
+MAE:  0.1614
+MSE:  0.0414
+RMSE:  0.2036
+Regression results Using LGBM Regressor on bg_posts_jz3 using both covid and econ data are:
+explained_variance:  0.069
+r2:  0.0292
+MAE:  0.1043
+MSE:  0.0202
+RMSE:  0.1421
+Regression results Using LGBM Regressor on bg_posts_jzgrp345 using both covid and econ data are:
+explained_variance:  0.4536
+r2:  0.0545
+MAE:  0.0728
+MSE:  0.008
+RMSE:  0.0895
+Regression results Using LGBM Regressor on bg_posts_jz4 using both covid and econ data are:
+explained_variance:  0.1725
+r2:  -0.1374
+MAE:  0.0571
+MSE:  0.0051
+RMSE:  0.0717
+Regression results Using LGBM Regressor on bg_posts_jz5 using both covid and econ data are:
+explained_variance:  0.269
+r2:  0.0096
+MAE:  0.1185
+MSE:  0.0211
+RMSE:  0.1453

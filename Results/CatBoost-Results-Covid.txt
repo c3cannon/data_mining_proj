@@ -1,0 +1,330 @@
+Regression results Using CatBoost Regressor on spend_acf using covid data are:
+explained_variance:  0.8973
+r2:  0.8161
+MAE:  0.0385
+MSE:  0.0025
+RMSE:  0.0499
+Regression results Using CatBoost Regressor on spend_aer using covid data are:
+explained_variance:  0.452
+r2:  0.326
+MAE:  0.0679
+MSE:  0.0087
+RMSE:  0.0931
+Regression results Using CatBoost Regressor on spend_all using covid data are:
+explained_variance:  0.8279
+r2:  0.7761
+MAE:  0.0264
+MSE:  0.0012
+RMSE:  0.0345
+Regression results Using CatBoost Regressor on spend_apg using covid data are:
+explained_variance:  0.5301
+r2:  0.5262
+MAE:  0.0667
+MSE:  0.0073
+RMSE:  0.0853
+Regression results Using CatBoost Regressor on spend_grf using covid data are:
+explained_variance:  0.6939
+r2:  0.6866
+MAE:  0.0279
+MSE:  0.0014
+RMSE:  0.0372
+Regression results Using CatBoost Regressor on spend_hcs using covid data are:
+explained_variance:  0.1306
+r2:  0.1264
+MAE:  0.1014
+MSE:  0.0214
+RMSE:  0.1462
+Regression results Using CatBoost Regressor on spend_tws using covid data are:
+explained_variance:  0.7207
+r2:  0.4409
+MAE:  0.0434
+MSE:  0.0031
+RMSE:  0.0561
+Regression results Using CatBoost Regressor on spend_all_inchigh using covid data are:
+explained_variance:  0.7249
+r2:  0.7072
+MAE:  0.0398
+MSE:  0.0038
+RMSE:  0.0614
+Regression results Using CatBoost Regressor on spend_all_inclow using covid data are:
+explained_variance:  0.7775
+r2:  0.7667
+MAE:  0.039
+MSE:  0.0029
+RMSE:  0.0543
+Regression results Using CatBoost Regressor on spend_all_incmiddle using covid data are:
+explained_variance:  0.7863
+r2:  0.7525
+MAE:  0.0294
+MSE:  0.0016
+RMSE:  0.0395
+Regression results Using CatBoost Regressor on revenue_all using covid data are:
+explained_variance:  0.8451
+r2:  0.7314
+MAE:  0.0376
+MSE:  0.0022
+RMSE:  0.0468
+Regression results Using CatBoost Regressor on revenue_ss40 using covid data are:
+explained_variance:  0.7059
+r2:  0.2964
+MAE:  0.0688
+MSE:  0.0069
+RMSE:  0.0833
+Regression results Using CatBoost Regressor on revenue_ss60 using covid data are:
+explained_variance:  0.5526
+r2:  0.5468
+MAE:  0.0593
+MSE:  0.0073
+RMSE:  0.0857
+Regression results Using CatBoost Regressor on revenue_ss65 using covid data are:
+explained_variance:  0.2967
+r2:  0.2934
+MAE:  0.063
+MSE:  0.0076
+RMSE:  0.0873
+Regression results Using CatBoost Regressor on revenue_ss70 using covid data are:
+explained_variance:  0.8817
+r2:  0.8503
+MAE:  0.0332
+MSE:  0.0019
+RMSE:  0.0438
+Regression results Using CatBoost Regressor on merchants_all using covid data are:
+explained_variance:  0.8418
+r2:  0.751
+MAE:  0.0214
+MSE:  0.0008
+RMSE:  0.0284
+Regression results Using CatBoost Regressor on merchants_ss40 using covid data are:
+explained_variance:  0.8185
+r2:  0.7397
+MAE:  0.0224
+MSE:  0.0009
+RMSE:  0.03
+Regression results Using CatBoost Regressor on merchants_ss60 using covid data are:
+explained_variance:  0.7549
+r2:  0.6784
+MAE:  0.0315
+MSE:  0.0018
+RMSE:  0.0425
+Regression results Using CatBoost Regressor on merchants_ss65 using covid data are:
+explained_variance:  0.7793
+r2:  0.7708
+MAE:  0.0223
+MSE:  0.001
+RMSE:  0.031
+Regression results Using CatBoost Regressor on merchants_ss70 using covid data are:
+explained_variance:  0.8784
+r2:  0.7307
+MAE:  0.0331
+MSE:  0.0018
+RMSE:  0.0427
+Regression results Using CatBoost Regressor on emp_combined using covid data are:
+explained_variance:  0.8026
+r2:  0.7714
+MAE:  0.0134
+MSE:  0.0004
+RMSE:  0.0196
+Regression results Using CatBoost Regressor on emp_combined_inclow using covid data are:
+explained_variance:  0.818
+r2:  0.8174
+MAE:  0.0186
+MSE:  0.0007
+RMSE:  0.0258
+Regression results Using CatBoost Regressor on emp_combined_incmiddle using covid data are:
+explained_variance:  0.8425
+r2:  0.8129
+MAE:  0.0166
+MSE:  0.0005
+RMSE:  0.0233
+Regression results Using CatBoost Regressor on emp_combined_inchigh using covid data are:
+explained_variance:  0.7417
+r2:  0.6951
+MAE:  0.0124
+MSE:  0.0003
+RMSE:  0.0159
+Regression results Using CatBoost Regressor on emp_combined_ss40 using covid data are:
+explained_variance:  0.7899
+r2:  0.7827
+MAE:  0.015
+MSE:  0.0004
+RMSE:  0.0196
+Regression results Using CatBoost Regressor on emp_combined_ss60 using covid data are:
+explained_variance:  0.8613
+r2:  0.8541
+MAE:  0.0143
+MSE:  0.0005
+RMSE:  0.0227
+Regression results Using CatBoost Regressor on emp_combined_ss65 using covid data are:
+explained_variance:  0.7859
+r2:  0.668
+MAE:  0.0178
+MSE:  0.0006
+RMSE:  0.0243
+Regression results Using CatBoost Regressor on emp_combined_ss70 using covid data are:
+explained_variance:  0.8434
+r2:  0.8258
+MAE:  0.0305
+MSE:  0.0019
+RMSE:  0.0432
+Regression results Using CatBoost Regressor on initclaims_count_regular using covid data are:
+explained_variance:  -0.2554
+r2:  -0.4184
+MAE:  8337.5907
+MSE:  246451696.8223
+RMSE:  15698.7801
+Regression results Using CatBoost Regressor on initclaims_rate_regular using covid data are:
+explained_variance:  -0.3948
+r2:  -0.6847
+MAE:  0.1797
+MSE:  0.0502
+RMSE:  0.2241
+Regression results Using CatBoost Regressor on contclaims_count_regular using covid data are:
+explained_variance:  -0.5766
+r2:  -0.6819
+MAE:  129409.5371
+MSE:  64258920365.097
+RMSE:  253493.4326
+Regression results Using CatBoost Regressor on contclaims_rate_regular using covid data are:
+explained_variance:  -0.0387
+r2:  -0.426
+MAE:  3.7549
+MSE:  26.0168
+RMSE:  5.1007
+Regression results Using CatBoost Regressor on initclaims_count_pua using covid data are:
+explained_variance:  -0.3288
+r2:  -1.7268
+MAE:  19296.0988
+MSE:  627079310.1545
+RMSE:  25041.5517
+Regression results Using CatBoost Regressor on contclaims_count_pua using covid data are:
+explained_variance:  0.0071
+r2:  -0.0667
+MAE:  154095.7511
+MSE:  85527705148.1176
+RMSE:  292451.2013
+Regression results Using CatBoost Regressor on contclaims_count_peuc using covid data are:
+explained_variance:  -0.0401
+r2:  -0.07
+MAE:  10492.0042
+MSE:  581150280.5889
+RMSE:  24107.0587
+Regression results Using CatBoost Regressor on initclaims_rate_pua using covid data are:
+explained_variance:  -0.3789
+r2:  -1.3372
+MAE:  0.2829
+MSE:  0.1397
+RMSE:  0.3737
+Regression results Using CatBoost Regressor on contclaims_rate_pua using covid data are:
+explained_variance:  -0.1883
+r2:  -0.3234
+MAE:  3.837
+MSE:  19.5756
+RMSE:  4.4244
+Regression results Using CatBoost Regressor on contclaims_rate_peuc using covid data are:
+explained_variance:  -0.0164
+r2:  -0.0202
+MAE:  0.2088
+MSE:  0.1386
+RMSE:  0.3723
+Regression results Using CatBoost Regressor on initclaims_count_combined using covid data are:
+explained_variance:  -0.3821
+r2:  -0.9254
+MAE:  23362.1011
+MSE:  1429820501.8918
+RMSE:  37812.9674
+Regression results Using CatBoost Regressor on contclaims_count_combined using covid data are:
+explained_variance:  -0.0597
+r2:  -0.2111
+MAE:  301347.1301
+MSE:  276085344228.7098
+RMSE:  525438.2402
+Regression results Using CatBoost Regressor on initclaims_rate_combined using covid data are:
+explained_variance:  -0.2071
+r2:  -0.7257
+MAE:  0.3527
+MSE:  0.2097
+RMSE:  0.4579
+Regression results Using CatBoost Regressor on contclaims_rate_combined using covid data are:
+explained_variance:  -0.2044
+r2:  -0.3024
+MAE:  7.884
+MSE:  81.9451
+RMSE:  9.0524
+Regression results Using CatBoost Regressor on bg_posts using covid data are:
+explained_variance:  -0.1068
+r2:  -0.4234
+MAE:  0.111
+MSE:  0.0184
+RMSE:  0.1358
+Regression results Using CatBoost Regressor on bg_posts_ss30 using covid data are:
+explained_variance:  -0.1937
+r2:  -0.7545
+MAE:  0.129
+MSE:  0.0235
+RMSE:  0.1533
+Regression results Using CatBoost Regressor on bg_posts_ss55 using covid data are:
+explained_variance:  -0.3491
+r2:  -0.471
+MAE:  0.0865
+MSE:  0.0127
+RMSE:  0.1129
+Regression results Using CatBoost Regressor on bg_posts_ss60 using covid data are:
+explained_variance:  -0.3511
+r2:  -0.3577
+MAE:  0.0899
+MSE:  0.0134
+RMSE:  0.1158
+Regression results Using CatBoost Regressor on bg_posts_ss65 using covid data are:
+explained_variance:  -0.2217
+r2:  -1.3813
+MAE:  0.2002
+MSE:  0.0607
+RMSE:  0.2465
+Regression results Using CatBoost Regressor on bg_posts_ss70 using covid data are:
+explained_variance:  -0.0976
+r2:  -0.3692
+MAE:  0.328
+MSE:  0.1389
+RMSE:  0.3726
+Regression results Using CatBoost Regressor on bg_posts_jz1 using covid data are:
+explained_variance:  -0.0844
+r2:  -0.0969
+MAE:  0.2489
+MSE:  0.0896
+RMSE:  0.2993
+Regression results Using CatBoost Regressor on bg_posts_jzgrp12 using covid data are:
+explained_variance:  -0.0729
+r2:  -0.0963
+MAE:  0.1609
+MSE:  0.0403
+RMSE:  0.2007
+Regression results Using CatBoost Regressor on bg_posts_jz2 using covid data are:
+explained_variance:  -0.0775
+r2:  -0.1207
+MAE:  0.1544
+MSE:  0.0378
+RMSE:  0.1943
+Regression results Using CatBoost Regressor on bg_posts_jz3 using covid data are:
+explained_variance:  -0.0792
+r2:  -0.6719
+MAE:  0.1508
+MSE:  0.0348
+RMSE:  0.1865
+Regression results Using CatBoost Regressor on bg_posts_jzgrp345 using covid data are:
+explained_variance:  -0.1913
+r2:  -1.0548
+MAE:  0.1079
+MSE:  0.0174
+RMSE:  0.132
+Regression results Using CatBoost Regressor on bg_posts_jz4 using covid data are:
+explained_variance:  -0.3785
+r2:  -0.6198
+MAE:  0.0708
+MSE:  0.0073
+RMSE:  0.0855
+Regression results Using CatBoost Regressor on bg_posts_jz5 using covid data are:
+explained_variance:  -0.0262
+r2:  -0.8245
+MAE:  0.1617
+MSE:  0.0389
+RMSE:  0.1972

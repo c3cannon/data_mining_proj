@@ -1,0 +1,24 @@
+Regression results Using CatBoost Regressor on spend_all using both covid and econ data are:
+explained_variance:  0.8493
+r2:  0.8064
+MAE:  0.0249
+MSE:  0.001
+RMSE:  0.0321
+Regression results Using CatBoost Regressor on revenue_all using both covid and econ data are:
+explained_variance:  0.8706
+r2:  0.8449
+MAE:  0.0275
+MSE:  0.0013
+RMSE:  0.0356
+Regression results Using CatBoost Regressor on merchants_all using both covid and econ data are:
+explained_variance:  0.8764
+r2:  0.8508
+MAE:  0.0148
+MSE:  0.0005
+RMSE:  0.022
+Regression results Using CatBoost Regressor on emp_combined using both covid and econ data are:
+explained_variance:  0.9779
+r2:  0.976
+MAE:  0.0049
+MSE:  0.0
+RMSE:  0.0064

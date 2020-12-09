@@ -1,0 +1,330 @@
+Regression results Using XGB Regressor on spend_acf  using both covid and econ data are:
+explained_variance:  0.9022
+r2:  0.8324
+MAE:  0.037
+MSE:  0.0023
+RMSE:  0.0477
+Regression results Using XGB Regressor on spend_aer  using both covid and econ data are:
+explained_variance:  0.4388
+r2:  0.4004
+MAE:  0.0648
+MSE:  0.0077
+RMSE:  0.0879
+Regression results Using XGB Regressor on spend_all  using both covid and econ data are:
+explained_variance:  0.8039
+r2:  0.7759
+MAE:  0.0266
+MSE:  0.0012
+RMSE:  0.0345
+Regression results Using XGB Regressor on spend_apg  using both covid and econ data are:
+explained_variance:  0.6296
+r2:  0.6276
+MAE:  0.0575
+MSE:  0.0057
+RMSE:  0.0756
+Regression results Using XGB Regressor on spend_grf  using both covid and econ data are:
+explained_variance:  0.6449
+r2:  0.6446
+MAE:  0.03
+MSE:  0.0016
+RMSE:  0.0396
+Regression results Using XGB Regressor on spend_hcs  using both covid and econ data are:
+explained_variance:  0.3271
+r2:  0.2699
+MAE:  0.097
+MSE:  0.0179
+RMSE:  0.1336
+Regression results Using XGB Regressor on spend_tws  using both covid and econ data are:
+explained_variance:  0.7057
+r2:  0.5978
+MAE:  0.0353
+MSE:  0.0023
+RMSE:  0.0476
+Regression results Using XGB Regressor on spend_all_inchigh  using both covid and econ data are:
+explained_variance:  0.7685
+r2:  0.7559
+MAE:  0.0387
+MSE:  0.0031
+RMSE:  0.0561
+Regression results Using XGB Regressor on spend_all_inclow  using both covid and econ data are:
+explained_variance:  0.767
+r2:  0.7592
+MAE:  0.0396
+MSE:  0.003
+RMSE:  0.0552
+Regression results Using XGB Regressor on spend_all_incmiddle  using both covid and econ data are:
+explained_variance:  0.798
+r2:  0.7773
+MAE:  0.0277
+MSE:  0.0014
+RMSE:  0.0375
+Regression results Using XGB Regressor on revenue_all  using both covid and econ data are:
+explained_variance:  0.8582
+r2:  0.832
+MAE:  0.0286
+MSE:  0.0014
+RMSE:  0.037
+Regression results Using XGB Regressor on revenue_ss40  using both covid and econ data are:
+explained_variance:  0.7463
+r2:  0.6561
+MAE:  0.0448
+MSE:  0.0034
+RMSE:  0.0582
+Regression results Using XGB Regressor on revenue_ss60  using both covid and econ data are:
+explained_variance:  0.6208
+r2:  0.607
+MAE:  0.0567
+MSE:  0.0064
+RMSE:  0.0798
+Regression results Using XGB Regressor on revenue_ss65  using both covid and econ data are:
+explained_variance:  0.2104
+r2:  0.2069
+MAE:  0.0635
+MSE:  0.0085
+RMSE:  0.0924
+Regression results Using XGB Regressor on revenue_ss70  using both covid and econ data are:
+explained_variance:  0.9216
+r2:  0.916
+MAE:  0.0257
+MSE:  0.0011
+RMSE:  0.0328
+Regression results Using XGB Regressor on merchants_all  using both covid and econ data are:
+explained_variance:  0.8676
+r2:  0.8504
+MAE:  0.0151
+MSE:  0.0005
+RMSE:  0.022
+Regression results Using XGB Regressor on merchants_ss40  using both covid and econ data are:
+explained_variance:  0.8593
+r2:  0.8401
+MAE:  0.0163
+MSE:  0.0006
+RMSE:  0.0235
+Regression results Using XGB Regressor on merchants_ss60  using both covid and econ data are:
+explained_variance:  0.7743
+r2:  0.7237
+MAE:  0.0293
+MSE:  0.0016
+RMSE:  0.0394
+Regression results Using XGB Regressor on merchants_ss65  using both covid and econ data are:
+explained_variance:  0.8242
+r2:  0.8239
+MAE:  0.0177
+MSE:  0.0007
+RMSE:  0.0271
+Regression results Using XGB Regressor on merchants_ss70  using both covid and econ data are:
+explained_variance:  0.9337
+r2:  0.9028
+MAE:  0.0188
+MSE:  0.0007
+RMSE:  0.0257
+Regression results Using XGB Regressor on emp_combined  using both covid and econ data are:
+explained_variance:  0.9807
+r2:  0.9768
+MAE:  0.0047
+MSE:  0.0
+RMSE:  0.0063
+Regression results Using XGB Regressor on emp_combined_inclow  using both covid and econ data are:
+explained_variance:  0.9474
+r2:  0.9431
+MAE:  0.0104
+MSE:  0.0002
+RMSE:  0.0144
+Regression results Using XGB Regressor on emp_combined_incmiddle  using both covid and econ data are:
+explained_variance:  0.9879
+r2:  0.9854
+MAE:  0.0051
+MSE:  0.0
+RMSE:  0.0065
+Regression results Using XGB Regressor on emp_combined_inchigh  using both covid and econ data are:
+explained_variance:  0.9175
+r2:  0.8988
+MAE:  0.0064
+MSE:  0.0001
+RMSE:  0.0092
+Regression results Using XGB Regressor on emp_combined_ss40  using both covid and econ data are:
+explained_variance:  0.9127
+r2:  0.9071
+MAE:  0.0076
+MSE:  0.0002
+RMSE:  0.0128
+Regression results Using XGB Regressor on emp_combined_ss60  using both covid and econ data are:
+explained_variance:  0.9636
+r2:  0.9596
+MAE:  0.0075
+MSE:  0.0001
+RMSE:  0.012
+Regression results Using XGB Regressor on emp_combined_ss65  using both covid and econ data are:
+explained_variance:  0.9549
+r2:  0.9346
+MAE:  0.0079
+MSE:  0.0001
+RMSE:  0.0108
+Regression results Using XGB Regressor on emp_combined_ss70  using both covid and econ data are:
+explained_variance:  0.8729
+r2:  0.8728
+MAE:  0.017
+MSE:  0.0014
+RMSE:  0.0369
+Regression results Using XGB Regressor on initclaims_count_regular  using both covid and econ data are:
+explained_variance:  0.8502
+r2:  0.5125
+MAE:  7864.4439
+MSE:  84701442.8208
+RMSE:  9203.3387
+Regression results Using XGB Regressor on initclaims_rate_regular  using both covid and econ data are:
+explained_variance:  -0.2345
+r2:  -3.4919
+MAE:  0.3138
+MSE:  0.1339
+RMSE:  0.3659
+Regression results Using XGB Regressor on contclaims_count_regular  using both covid and econ data are:
+explained_variance:  0.9574
+r2:  0.9536
+MAE:  34131.2496
+MSE:  1774212456.1091
+RMSE:  42121.4014
+Regression results Using XGB Regressor on contclaims_rate_regular  using both covid and econ data are:
+explained_variance:  0.4455
+r2:  0.4442
+MAE:  2.3684
+MSE:  10.1404
+RMSE:  3.1844
+Regression results Using XGB Regressor on initclaims_count_pua  using both covid and econ data are:
+explained_variance:  0.6194
+r2:  0.3591
+MAE:  8375.0986
+MSE:  147399515.1673
+RMSE:  12140.8202
+Regression results Using XGB Regressor on contclaims_count_pua  using both covid and econ data are:
+explained_variance:  0.6606
+r2:  0.6461
+MAE:  77804.6463
+MSE:  28376723055.3384
+RMSE:  168453.9197
+Regression results Using XGB Regressor on contclaims_count_peuc  using both covid and econ data are:
+explained_variance:  0.8849
+r2:  0.8844
+MAE:  3630.8506
+MSE:  62809379.4575
+RMSE:  7925.2369
+Regression results Using XGB Regressor on initclaims_rate_pua  using both covid and econ data are:
+explained_variance:  0.2661
+r2:  -0.6521
+MAE:  0.2537
+MSE:  0.0987
+RMSE:  0.3142
+Regression results Using XGB Regressor on contclaims_rate_pua  using both covid and econ data are:
+explained_variance:  0.0017
+r2:  -0.0431
+MAE:  3.0676
+MSE:  15.4287
+RMSE:  3.9279
+Regression results Using XGB Regressor on contclaims_rate_peuc  using both covid and econ data are:
+explained_variance:  0.6754
+r2:  0.6749
+MAE:  0.1706
+MSE:  0.0442
+RMSE:  0.2102
+Regression results Using XGB Regressor on initclaims_count_combined  using both covid and econ data are:
+explained_variance:  0.9039
+r2:  0.658
+MAE:  14120.2137
+MSE:  253995064.9989
+RMSE:  15937.2226
+Regression results Using XGB Regressor on contclaims_count_combined  using both covid and econ data are:
+explained_variance:  0.786
+r2:  0.7721
+MAE:  126154.2367
+MSE:  51951049239.857
+RMSE:  227927.7281
+Regression results Using XGB Regressor on initclaims_rate_combined  using both covid and econ data are:
+explained_variance:  0.2942
+r2:  -0.8781
+MAE:  0.4081
+MSE:  0.2282
+RMSE:  0.4777
+Regression results Using XGB Regressor on contclaims_rate_combined  using both covid and econ data are:
+explained_variance:  -0.0005
+r2:  -0.0615
+MAE:  5.8923
+MSE:  66.7897
+RMSE:  8.1725
+Regression results Using XGB Regressor on bg_posts  using both covid and econ data are:
+explained_variance:  0.3115
+r2:  0.2921
+MAE:  0.0711
+MSE:  0.0092
+RMSE:  0.0958
+Regression results Using XGB Regressor on bg_posts_ss30  using both covid and econ data are:
+explained_variance:  -0.1979
+r2:  -0.3869
+MAE:  0.1162
+MSE:  0.0186
+RMSE:  0.1363
+Regression results Using XGB Regressor on bg_posts_ss55  using both covid and econ data are:
+explained_variance:  -0.0935
+r2:  -0.2146
+MAE:  0.0711
+MSE:  0.0105
+RMSE:  0.1026
+Regression results Using XGB Regressor on bg_posts_ss60  using both covid and econ data are:
+explained_variance:  0.0189
+r2:  0.0154
+MAE:  0.077
+MSE:  0.0097
+RMSE:  0.0986
+Regression results Using XGB Regressor on bg_posts_ss65  using both covid and econ data are:
+explained_variance:  0.1918
+r2:  0.0178
+MAE:  0.1217
+MSE:  0.0251
+RMSE:  0.1583
+Regression results Using XGB Regressor on bg_posts_ss70  using both covid and econ data are:
+explained_variance:  0.2044
+r2:  0.113
+MAE:  0.253
+MSE:  0.09
+RMSE:  0.2999
+Regression results Using XGB Regressor on bg_posts_jz1  using both covid and econ data are:
+explained_variance:  0.0914
+r2:  0.0913
+MAE:  0.2369
+MSE:  0.0742
+RMSE:  0.2724
+Regression results Using XGB Regressor on bg_posts_jzgrp12  using both covid and econ data are:
+explained_variance:  -0.0351
+r2:  -0.0468
+MAE:  0.1545
+MSE:  0.0385
+RMSE:  0.1961
+Regression results Using XGB Regressor on bg_posts_jz2  using both covid and econ data are:
+explained_variance:  -0.1449
+r2:  -0.1781
+MAE:  0.1574
+MSE:  0.0397
+RMSE:  0.1993
+Regression results Using XGB Regressor on bg_posts_jz3  using both covid and econ data are:
+explained_variance:  0.3307
+r2:  0.2841
+MAE:  0.0912
+MSE:  0.0149
+RMSE:  0.122
+Regression results Using XGB Regressor on bg_posts_jzgrp345  using both covid and econ data are:
+explained_variance:  0.4481
+r2:  0.157
+MAE:  0.0689
+MSE:  0.0071
+RMSE:  0.0845
+Regression results Using XGB Regressor on bg_posts_jz4  using both covid and econ data are:
+explained_variance:  0.3005
+r2:  -0.3559
+MAE:  0.0668
+MSE:  0.0061
+RMSE:  0.0782
+Regression results Using XGB Regressor on bg_posts_jz5  using both covid and econ data are:
+explained_variance:  0.2189
+r2:  -0.2647
+MAE:  0.1279
+MSE:  0.027
+RMSE:  0.1642

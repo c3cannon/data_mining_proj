@@ -11,6 +11,7 @@ Original file is located at
 !pip install ipywidgets
 !jupyter nbextension enable --py widgetsnbextension
 
+# Commented out IPython magic to ensure Python compatibility.
 # PLACE ALL IMPORTS HERE
 import pandas as pd
 import sys
@@ -41,6 +42,7 @@ from sklearn.model_selection import cross_val_score
 
 from IPython.display import display
 import matplotlib.pyplot as plt
+# %matplotlib inline
 import seaborn as sns
 
 """# Initialization"""
@@ -175,10 +177,10 @@ display(df_covid.head())
 ## This is where we use the previous function to delay the covid data/ Econ data which are already imputed
 ## If you also want to use the econ delayed data as an input, comment out the commented commands
 delay_covid = [7,14,21]
-#delay_econ = [7,14,21]
+delay_econ = [7,14,21]
 
 df_covid = df_derived_by_shift(df_covid, delay_covid)
-# df_econ = df_derived_by_shift(df_econ, delay_econ)
+df_econ = df_derived_by_shift(df_econ, delay_econ)
 display(df_covid.head())
 
 df_covid.to_csv('data.csv')
@@ -286,7 +288,7 @@ for i in range(len(models)):
   sys.stdout = f
   for column in df_econ_new.columns:
       if column != 'statefips':
-        means = df_econ_new.groupby('statefips')[column].mean()
+        means = df_econ_new.loc[:'2020-07'].groupby('statefips')[column].mean()
         df_econ_encoded = df_econ_new.copy()
         temp = df_econ_encoded['statefips'].map(means)
         df_covid_encoded = df_covid_new.copy()
@@ -324,12 +326,12 @@ for i in range(len(models)):
 columns = ['spend_all','revenue_all','merchants_all','emp_combined']
 
 orig_stdout = sys.stdout
-path = '/content/drive/My Drive/Data Mining Project - Share/Data/CatBoost-Results-Covid-Econ.txt'
+path = '/content/drive/My Drive/Data Mining Project - Share/Data/CatBoost-Results-Covid-Econ-new.txt'
 f = open(path, 'w')
 sys.stdout = f
 for column in columns:
         if column != 'statefips':
-          means = df_econ_new.groupby('statefips')[column].mean()
+          means = df_econ_new.loc[:'2020-07'].groupby('statefips')[column].mean()
           df_econ_encoded = df_econ_new.copy()
           temp = df_econ_encoded['statefips'].map(means)
           df_covid_encoded = df_covid_new.copy()
@@ -360,3 +362,117 @@ for column in columns:
           regression_results(y_test, y_pred)
 sys.stdout = orig_stdout
 f.close()
+
+models = [RandomForestRegressor(), xgb.XGBRegressor(objective='reg:squarederror', random_state=42),
+          LGBMRegressor(), CatBoostRegressor(verbose=False)]
+
+model_names = ['RF','XGB','LGBM','CatBoost']
+
+param_RF = {'n_estimators': [20],'max_depth' : [5,10,15] }
+
+param_XGB = {}
+param_Cat = {}
+param_lgbm = {}
+params = [param_RF, param_XGB, param_lgbm, param_Cat]
+
+columns = ['spend_all','revenue_all','merchants_all','emp_combined']
+
+for i in range(len(models)):
+
+  for column in columns:
+      if column != 'statefips':
+        means = df_econ_new.loc[:'2020-07'].groupby('statefips')[column].mean()
+        df_econ_encoded = df_econ_new.copy()
+        temp = df_econ_encoded['statefips'].map(means)
+        df_covid_encoded = df_covid_new.copy()
+        df_covid_encoded['statefips'] = temp
+
+        ## Preprocess the data using StandardScaler
+        X_train = df_covid_encoded[:'2020-07']
+        X_test = df_covid_encoded['2020-08-01':'2020-08-31']
+        X_scaler = StandardScaler()
+        X_train = X_scaler.fit_transform(X_train)
+        X_test = X_scaler.transform(X_test)
+
+        y_train = df_econ_encoded.loc[:'2020-07', column]
+        y_test = df_econ_encoded.loc['2020-8-01':'2020-08-31':, column]
+
+        tscv = TimeSeriesSplit(n_splits=5)
+        gsearch = GridSearchCV(estimator=models[i], cv=tscv, param_grid=params[i], scoring = 'r2')
+
+
+        gsearch.fit(X_train, y_train)
+        best_score = gsearch.best_score_
+        best_model = gsearch.best_estimator_
+        
+        features = list(df_covid_encoded.columns.values)
+
+        importances_full = best_model.feature_importances_
+
+        indices_full = np.argsort(importances_full)
+
+        indices_full = indices_full[len(indices_full)-5:len(indices_full)]
+
+        title = 'Top 5 features when using '+ model_names[i]+ ' on COVID data to predict '+ str(column)
+        plt.title(title)
+        plt.barh(range(len(indices_full)), importances_full[indices_full], color='b', align='center')
+        plt.yticks(range(len(indices_full)), [features[i] for i in indices_full])
+        plt.xlabel('Relative Importance')
+        plt.show()
+
+models = [RandomForestRegressor(), xgb.XGBRegressor(objective='reg:squarederror', random_state=42),
+          LGBMRegressor(), CatBoostRegressor(verbose=False)]
+
+model_names = ['RF','XGB','LGBM','CatBoost']
+
+param_RF = {'n_estimators': [20],'max_depth' : [5,10,15] }
+
+param_XGB = {}
+param_Cat = {}
+param_lgbm = {}
+params = [param_RF, param_XGB, param_lgbm, param_Cat]
+
+columns = ['spend_all','revenue_all','merchants_all','emp_combined']
+
+for i in range(len(models)):
+
+  for column in columns:
+      if column != 'statefips':
+        means = df_econ_new.loc[:'2020-07'].groupby('statefips')[column].mean()
+        df_econ_encoded = df_econ_new.copy()
+        temp = df_econ_encoded['statefips'].map(means)
+        df_covid_encoded = df_covid_new.copy()
+        df_covid_encoded['statefips'] = temp
+
+        ## Preprocess the data using StandardScaler
+        X_train = df_covid_encoded[:'2020-07']
+        X_test = df_covid_encoded['2020-08-01':'2020-08-31']
+        X_scaler = StandardScaler()
+        X_train = X_scaler.fit_transform(X_train)
+        X_test = X_scaler.transform(X_test)
+
+        y_train = df_econ_encoded.loc[:'2020-07', column]
+        y_test = df_econ_encoded.loc['2020-8-01':'2020-08-31':, column]
+
+        tscv = TimeSeriesSplit(n_splits=5)
+        gsearch = GridSearchCV(estimator=models[i], cv=tscv, param_grid=params[i], scoring = 'r2')
+
+
+        gsearch.fit(X_train, y_train)
+        best_score = gsearch.best_score_
+        best_model = gsearch.best_estimator_
+        
+        features = list(df_covid_encoded.columns.values)
+
+        importances_full = best_model.feature_importances_
+
+        indices_full = np.argsort(importances_full)
+
+        indices_full = indices_full[len(indices_full)-5:len(indices_full)]
+
+        title = 'Top 5 features when using '+ model_names[i]+ ' on COVID & Econ data to predict '+ str(column)
+        plt.title(title)
+        plt.barh(range(len(indices_full)), importances_full[indices_full], color='b', align='center')
+        plt.yticks(range(len(indices_full)), [features[i] for i in indices_full])
+        plt.xlabel('Relative Importance')
+        plt.show()

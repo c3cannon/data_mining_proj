@@ -9,6 +9,7 @@ import pandas as pd
 from torch import nn
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn import model_selection
+from sklearn.metrics import r2_score, explained_variance_score
 import matplotlib.pyplot as plt
 from IPython.display import display
 
@@ -20,7 +21,7 @@ runs = [
         "params": {'hidden_layer_size': 160, 'num_layers': 2, 'records_length': 147}}
 ]
 
-# 6*3 + 4*3 + 2*3 = 36 trials
+## To do a parameter sweep
 #all_parameters = [{"hidden_layer_size": [20, 40], "num_layers": [1, 2, 3], "records_length": [30, 90, 154]},
 #              {"hidden_layer_size": [80, 160], "num_layers": [1, 2], "records_length": [30, 90, 154]},
 #              {"hidden_layer_size": [320, 500], "num_layers": [1], "records_length": [30, 90, 154]}]
@@ -75,7 +76,6 @@ for run in runs:
     stdscaler.fit(df_inputs.loc[idx[:, :train_date], :].to_numpy())
     inputs = stdscaler.transform(inputs)
 
-    #inputsAL_normalized = scaler.fit_transform(inputsAL_concat)
     display(inputs)
 
     targets = df_targets.to_numpy()
@@ -109,7 +109,6 @@ for run in runs:
 
         def forward(self, input_seq):
             lstm_out, self.hidden_cell = self.lstm(input_seq.view(len(input_seq) ,1, -1), (self.hidden_cell[0].detach(), self.hidden_cell[1].detach()))
-            #lstm_out, self.hidden_cell = self.lstm(input_seq.view(len(input_seq) ,1, -1), self.hidden_cell)
 
             predictions = self.linear(lstm_out.view(len(input_seq), -1))
             return predictions[-1]
@@ -132,7 +131,7 @@ for run in runs:
     device = torch.device(dev)
 
     for training_col in ["spend_all", "revenue_all", "emp_combined"]:
-        means = df_targets.groupby('statefips')[training_col].mean()
+        means = df_targets.loc[idx[:, :train_date], :].groupby('statefips')[training_col].mean()
         temp = df_inputs.index.get_level_values(0).map(means)
         inputs_encoded = np.concatenate((inputs, temp.to_numpy().reshape(-1,1)), axis=1)
 
@@ -182,14 +181,9 @@ for run in runs:
         idx = pd.IndexSlice
 
         states = df_inputs.index.unique(level=0)
-        #states = states[0:5]
-        #dates = df_inputs.index.unique()
         dates = df_inputs.index.unique(level=1)
 
         epoch_losses = []
-
-
-        
 
         for epoch in range(n_epochs):
             #optimizer.zero_grad()
@@ -218,9 +212,6 @@ for run in runs:
                 dates_iterator = np.arange(date_count)
 
                 if ((not only_texas) or state == 48):
-                #print(row_index)
-                #print(df_inputs.iloc[row_index])
-                #np.random.shuffle(dates_iterator)
                     model.init_hidden(1)
 
                     for date_j in range(records_to_provide, date_count):
@@ -297,15 +288,12 @@ for run in runs:
                 records_to_provide=min(params["records_length"], df_inputs.index.get_loc((state, train_date))-1-row_index)
 
 
-                #feed_inputs = torch.zeros([records_to_provide,targets.shape[1]], device=model.device, requires_grad=False)
                 if ((not only_texas) or state == 48):
                     model.init_hidden(1)
 
                     for i in range(row_index+records_to_provide-1,test_index):
                         with torch.no_grad():
                             predictions = model(torchInputs[np.arange(i-records_to_provide+1, i+1)])
-                            #feed_inputs = torch.roll(feed_inputs, -1, dims=0)
-                            #feed_inputs[-1,:]=predictions
 
                     for i in range(test_count):
                         with torch.no_grad():    
@@ -323,13 +311,9 @@ for run in runs:
                     test_pred_outputs[col].extend(predicted_outputs[state_i,:,c].reshape((-1,)).cpu().tolist())
                     c+=1
 
-                #test_index += date_count
                 state_i += 1
 
             return test_outputs, test_pred_outputs
-
-        # %%
-        from sklearn.metrics import r2_score, explained_variance_score
 
         # %%
 ### GENERATE TEST RESULTS
